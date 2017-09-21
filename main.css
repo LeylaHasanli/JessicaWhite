@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    height: 0;
+    clear: both;
+    font-size: 0;
+}
 .header{
     border-top: 5px #d00b01 solid;
     padding 36px 0 21px 0;
@@ -13,19 +22,19 @@
    padding: 3px 4px 9px 0;
 }
 
-ul {
+.zibil ul {
     list-style-type: none;
     margin-top: 40px;
     margin-right: 200px;
-   
+    display: block;   
     }
 
-li {
+.zibil li {
     
    float: left;
 }
 
-li a {
+.zibil li a {
     color: black;
     text-align: left;
     padding: 10px;
@@ -126,7 +135,54 @@ li a:hover {
     display: block;
 }
 
+/*---------------------------------*/
+.social-logos{
+    float: right;
+    margin: 25px 125px 0px 0px;
+}
 
+.social-logos ul{
+    display: block;   
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.social-logos ul li{
+    padding: 0;
+    margin: 0 0 0 5px;
+    display: inline-block;
+    line-height: 30px;
+}
 
+.social-logos a{
+    background-image: url(img/top_socials.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-indent: -9999px;
+    text-align: left;
+}
+.social-logos a.fb {
+    background-position: 0 0;
+}
+.social-logos a.vimeo {
+    background-position: -35px 0;
+}.social-logos a.tumbrl {
+    background-position: -70px 0;
+}.social-logos a.twitter {
+    background-position: -105px 0;
+}.social-logos a.delicious {
+    background-position: -140px 0;
+}
 
-
+.social-logos  a.fb:hover {background-position:0 -30px;
+}
+.social-logos  a.vimeo:hover {background-position:-35px -30px;
+}
+.social-logos  a.tumbrl:hover {background-position:-70px -30px;
+}
+.social-logos  a.twitter:hover {background-position:-105px -30px;
+}
+.social-logos  a.delicious:hover {background-position:-140px -30px;
+}
